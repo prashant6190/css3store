@@ -1,0 +1,195 @@
+body{
+    background-color: darkgrey;
+}
+
+
+.box-container{
+    border: 5px solid purple;
+    background-color: green;
+    /* position: relative; */
+    width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.min-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 8px;
+    font-size: 20px;
+grid-row-gap:5px;
+
+}
+
+/* h3{
+    margin-left: 80px;
+    font-style: italic;
+} */
+
+#htext{
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+
+}
+
+.fruits{
+    background-color: rgb(243, 243, 139);
+    text-align: center;
+    font-style: italic;
+}
+
+.vegetables{
+    background-color: rgb(243, 243, 139);
+    font-style: italic;
+    text-align: center;
+}
+
+.other-items{
+    background-color: rgb(243, 243, 139);
+    text-align: center;
+    font-style: italic;
+    grid-column: 1 / span 2;
+}
+
+#fixed{
+    border:5px solid red;
+    background-color: limegreen;
+    color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px purple;
+    bottom: 0px;
+    left: 750px;
+    position: fixed;
+}
+
+#text1{
+    text-align: center;
+
+}
+
+#text2{
+    text-align: center;
+}
+
+
+#innertxt{
+    text-transform: uppercase;
+}
+
+
+.container{
+border: 4px solid green;
+width: 100%;
+height: 450px;
+display: flex;
+position: relative;
+color: purple;
+font-weight: bold;
+text-align: center;
+text-shadow: 1px 3px 2px #ffa9ff;
+
+}
+
+#box1{
+    border: 4px solid red;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 175px;
+    line-height: 28px;
+    box-shadow: 5px 4px 10px purple;
+    border-radius: 10px;
+    
+}
+
+
+#box2{
+    border: 4px solid red;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    box-shadow: 5px 4px 10px purple;
+    border-radius: 10px;
+}
+
+
+#box3{
+    border: 4px solid red;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    box-shadow: 5px 4px 10px purple;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 29px;
+}
+
+
+#box4{
+    border: 4px solid red;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 12px;
+    box-shadow: 5px 4px 10px purple;
+    border-radius: 10px;
+    width: 200px;
+    line-height: 2px;
+    height: 200px;
+    
+}
+
+#smalltext{
+    margin-top: 35px;
+}
+
+input{
+    width: 80px;
+}
+
+
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 420px;
+    height: 150px;
+    margin-left: 750px;
+    box-shadow: 15px 14px 10px purple;
+}
+
+#data-head{
+    color: #c55050;
+    
+    padding: 40px;
+    font-style: italic;
+    padding-left: 30px;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px purple;
+    padding-top: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line{
+    margin-top: 14px;
+}
+
+button{
+    background-color: red;
+    color: purple;
+    border-radius: 10px;
+}
